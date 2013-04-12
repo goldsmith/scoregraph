@@ -9,7 +9,7 @@ data = eval(open(os.path.join(settings.STATIC_ROOT, 'data.txt')).read())
 data.sort(key=lambda item:item["time"])
 newData = []
 for score in data:
-	newScore = {"value":score["value"], "time":score['time'].strftime("%a %b %y %H %M %S")}
+	newScore = {"value":score["value"], "time":score['time'].strftime("%d %b %y %H %M %S")}
 	print newScore
 	newData.append(newScore)
 #f = open(os.path.join(settings.STATIC_ROOT, 'data.json'), 'w')
