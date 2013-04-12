@@ -63,7 +63,7 @@ MEDIA_URL = ''
 
 #/Users/jonathangoldsmith/projects/scoregraph/scoregraph/ for local
 #static for heroku
-STATIC_ROOT = '/Users/jonathangoldsmith/projects/scoregraph/scoregraph/static'
+STATIC_ROOT = 'static'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
